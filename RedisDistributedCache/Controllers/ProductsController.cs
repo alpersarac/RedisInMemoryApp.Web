@@ -21,7 +21,7 @@ namespace RedisDistributedCache.Controllers
 
             return View();
         }
-        public IActionResult Show()
+        public IActionResult Show() 
         {
             ViewBag.Show =_distributedCache.GetString("name");
             return View();

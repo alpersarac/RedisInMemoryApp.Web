@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryApp.Web", "InMemoryApp.Web\InMemoryApp.Web.csproj", "{DFA2862A-7A57-4218-A888-37EA12895EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDistributedCache", "RedisDistributedCache\RedisDistributedCache.csproj", "{90D78346-85AB-4D2E-A114-468068A27405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDistributedCache", "RedisDistributedCache\RedisDistributedCache.csproj", "{90D78346-85AB-4D2E-A114-468068A27405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExchangeAPI.Web", "RedisExchangeAPI.Web\RedisExchangeAPI.Web.csproj", "{0FE60605-C5F8-40FE-8DF3-D53B4B8B99DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{90D78346-85AB-4D2E-A114-468068A27405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D78346-85AB-4D2E-A114-468068A27405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D78346-85AB-4D2E-A114-468068A27405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE60605-C5F8-40FE-8DF3-D53B4B8B99DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE60605-C5F8-40FE-8DF3-D53B4B8B99DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE60605-C5F8-40FE-8DF3-D53B4B8B99DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE60605-C5F8-40FE-8DF3-D53B4B8B99DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
